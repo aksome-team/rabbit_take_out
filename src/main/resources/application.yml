@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: RabbitTakeOut
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://43.138.172.239:3306/rabbit_take_out?useSSL=false&serverTimezone=UTC
+    password: 123456
+    username: rabbit_take_out
+  redis:
+    host: 43.138.172.239
+    port: 6379
+    lettuce:
+      pool:
+        max-active: 10
+        max-idle: 10
+        min-idle: 1
+        time-between-eviction-runs: 10s
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    lazy-loading-enabled: true
