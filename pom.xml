@@ -12,6 +12,7 @@
     <artifactId>RabbitTakeOut</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>RabbitTakeOut</name>
+    <packaging>pom</packaging>
     <description>RabbitTakeOut</description>
     <properties>
         <java.version>1.8</java.version>
